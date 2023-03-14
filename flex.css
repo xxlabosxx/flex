@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 500px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+div{
+    border: 1px dotted black;
+    width: 25%;
+    font-size: 20px;
+    text-align: center;
+    height: 80px;
+}
